@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="bootstrap-4.6.1-dist/css/bootstrap.min.css">
+    <link href="icons/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--header principal qui contient le logo blacktie.co et le medias-->
+    <div id="header-princ">
+        <!--logo -->
+        <div class="logo">BLACKTIE.CO </div>
+        <div class="social-medias"> 
+            <!-- Comment utiliser les icônes ?
+            Si vous souhaitez utiliser des icônes ioniques,
+             recherchez l'icône dont vous avez besoin sur la page 
+            ( https://ionicons.com/ ). Lorsque vous ajoutez des éléments ioniques,
+            vous ajoutez toujours la classe principale en premier, puis vous ajoutez
+            la sous-classe souhaitée. La classe principale pour toutes les icônes est icon .
+            La sous-classe est le nom de l'icône que vous voulez. Nous allons ajouter six icônes
+            dans notre exemple qui est donné ci-dessous - -->
+          <a href="#"><i class="ion-social-twitter"></i></a>
+          <a href="#"><i class="ion-social-instagram"></i></a>
+          <a href="#"><i class="ion-social-facebook"></i></a>
+         
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>Welcome to our new app site.<br/>
+                Sign up now & prepare to enjoy our <br/>
+                 service.
+              </h1>
+             
+              <section class="call-to-action text-white text-center" id="signup">
+                <div class="container position-relative">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6">
+                            <form class="form-subscribe" id="emailinp">
+                                <!-- Email address input-->
+                                <div class="row">
+                                    <div class="col">
+                                        <input class="form-control form-control-lg" id="email" type="email" placeholder="Enter your e-mail address..."  />
+                                        
+                                    </div>
+                                  <!--La propriété disabled(non cliquable) définit ou renvoie si un bouton d'entrée doit être désactivé ou non. Le bouton ne peut etre cliquer si 
+                                une certaine condition n'est pas respecter avec l'adress mail-->
+                                    <div class="col-3"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">START</button></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+             </section>
+                      
+                       
+              
+              <h6>30 DAY FREE TRIAL - NO CREDIT CARD NEEDED.</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fin du heeader -->
+
+<!--debut du container-->
+      <div class="container">
+      <div class="row contenu">
+        <div class="col">
+            <h3>All the features you want in this kind of apps you'll got it here.</h3>
+               <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type 
+                specimen book.
+             </p>
+             <a href=""><img src="img/app-store.png" width="150" alt=""></a>
+             <a href=""><img src="img/google-play.png" width="150" alt=""></a>
+        </div>
+      
+        <div class="col-md-6">
+            <img src="img/phone.png" alt="" class="d-block " width="450" height="250">
+        </div>
+      </div>
+      </div>
+<!--fin du container-->
+
+ <!--div learn more-->
+      <div id="Join">
+        <div class="container text-white text-center">
+          <div class="row ">
+            <div class="col-sm-7 font-sizes ">
+              <h1>Join your experiences with the people you care more. Let us help you.</h1>
+              <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h4>
+              <p><button class="btn more ">Learn More</button></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!--/learn more-->
+    
+      <div class="title">
+           <h2>Our Pricing Model <br>
+                 It's Quite Easy To Understand.
+           </h2>
+      </div>
+
+      <!--debut des cards-->
+      <div class="container">
+        <div class="card-deck mb-3 text-center">
+          <div class="card mb-4 shadow-sm">
+              <div class="card-body">
+                <h4 class="my-0 font-weight-normal">STANDARD</h4>
+
+                <div class="separation"></div>
+
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>10GB Storage Space</li>
+
+                <div class="separation"></div>
+
+                <li>Free Support</li>
+
+                <div class="separation"></div>
+
+                <li>100 Users</li>
+
+                <div class="separation"></div>
+
+                <li>100GB Bandwith</li>
+
+                <div class="separation"></div>
+
+              </ul>
+              <h1 class="card-title pricing-card-title">$ 29 <small class="text-muted">/mo.</small></h1>
+              <button class="btn more ">SUBSCRIBE NOW</button>
+            </div>
+          </div>
+
+
+          <div class="card mb-4 shadow-sm">
+              <div class="card-body">
+                <h4 class="my-0 MMS font-weight-normal">BUSINESS</h4>
+
+                <div class="separation"></div>
+
+              <ul class="list-unstyled mt-3 mb-4">               
+                <li>50GB Storage Space</li>
+
+                <div class="separation"></div>
+
+                <li>Free Support</li>
+
+                <div class="separation"></div>
+
+                <li>500 Users</li>
+
+                <div class="separation"></div>
+
+                <li>500GB Bandwith</li>
+
+                <div class="separation"></div>
+
+              </ul>
+              <h1 class="card-title pricing-card-title">$ 49 <small class="text-muted">/mo.</small></h1>
+              <button class="btn more ">SUBSCRIBE NOW</button>
+            </div>
+          </div>
+
+
+          <div class="card mb-4 shadow-sm">
+              <div class="card-body">
+                  <h4 class="my-0 font-weight-normal">CORPORATE</h4> 
+
+                  <div class="separation"></div>          
+
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>100GB Storage Space</li>
+
+                <div class="separation"></div>
+
+                <li>Free Support</li>
+
+                <div class="separation"></div>
+
+                <li>10,000 Users</li>
+
+                <div class="separation"></div>
+
+                <li>3TB Bandwith</li>
+
+                <div class="separation"></div>
+
+              </ul>
+              <h1 class="card-title pricing-card-title">$ 89 <small class="text-muted">/mo.</small></h1>
+              <button class="btn more ">SUBSCRIBE NOW</button>
+            </div>
+          </div>
+
+        
+        </div>
+      </div> 
+
+      
+      <section class="testimonials text-center bg-light" id="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid mb-3" src="img/client1.png" height="15" width="100"  alt="..." />              
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid mb-3" src="img/client2.png" height="15" width="100"  alt="..." />              
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid mb-3" src="img/client3.png" height="15" width="100"  alt="..." />              
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid mb-3" src="img/client4.png" height="15" width="100"  alt="..." />              
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid mb-3" src="img/client5.png" height="15" width="100"  alt="..." />              
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <script src="bootstrap-4.6.1-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
